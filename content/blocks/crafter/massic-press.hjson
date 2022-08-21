@@ -1,7 +1,7 @@
 type: GenericCrafter
 category: crafting
 localizedName: Massic Press
-description: Compresses coal into a lot of graphite.
+description: Larger Multi Press. Compresses coal into graphite.
 scaledHealth: 275
 craftTime: 90
 craftEffect: pulverizeMedium
@@ -11,6 +11,10 @@ outputItems: [
 ]
 consumes: {
   power: 3.75
+  liquid: {
+    liquid: water
+    amount: 0.4
+  }
   items: {
     items: [
       coal/5
