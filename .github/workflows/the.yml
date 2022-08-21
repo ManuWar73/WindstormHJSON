@@ -16,7 +16,7 @@ jobs:
         distribution: 'temurin'
 
     - name: archive the source code to a jar file
-      run: jar fv theMod.jar
+      run: jar cfvM theMod.jar
 
     - name: Upload Mod Jar
       uses: actions/upload-artifact@v2
