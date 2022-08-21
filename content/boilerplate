@@ -3,7 +3,7 @@ category:
 localizedName: 
 description: 
 scaledHealth: 
-requirements [
+requirements: [
   copper/1
 ]
 research: 

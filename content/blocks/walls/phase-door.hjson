@@ -5,7 +5,7 @@ description: A door that reflects enemy bullets.
 chanceDeflect: 10
 flashHit: true
 health: 180
-requirements [
+requirements: [
   phase-fabric/8
   silicon/4
 ]

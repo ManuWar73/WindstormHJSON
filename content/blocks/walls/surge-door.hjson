@@ -5,7 +5,7 @@ localizedName: Surge Door
 description: A door that creates electric arcs.
 lightningChance: 0.075
 health: 235
-requirements [
+requirements: [
   surge-alloy/8
   silicon/4
 ]
