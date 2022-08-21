@@ -1,0 +1,53 @@
+type: multicraft.MultiCrafter
+category: crafting
+localizedName: Multi Furnace
+description: Produces items based on the input. Requires no power but a lot of slag.
+scaledHealth: 85
+recipes: [
+  {
+    input: {
+      items: [
+        coal/2
+      ]
+      fluids: [
+        slag/5
+      ]
+    }
+    output: graphite/3
+    craftTime: 60
+  }
+  {
+    input: {
+      items: [
+        coal/5
+        sand/3
+      ]
+      fluids: [
+        slag/5
+      ]
+    }
+    output: silicon/4
+    craftTime: 80
+  }
+  {
+    input: {
+      items: [
+        lead/4
+        sand/4
+      ]
+      fluids: [
+        slag/5
+      ]
+    }
+    output: metaglass/4
+    craftTime: 45
+  }
+]
+menu: Simple
+requirements: [
+  copper/145
+  lead/65
+  graphite/90
+  silicon/25
+]
+research: disassembler
