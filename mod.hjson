@@ -1,6 +1,6 @@
 displayName: "Codename: Windstorm"
 name: "cwh" // codename: windstorm hjson
-subtitle: "hjson moment"
+subtitle: "hjson version of codename: windstorm"
 minGameVersion: 137
 version: "1.0"
 description: "approaching the outer limits of mindustry's technologies."
