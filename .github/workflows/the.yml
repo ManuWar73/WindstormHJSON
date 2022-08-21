@@ -16,10 +16,10 @@ jobs:
         distribution: 'temurin'
 
     - name: archive the source code to a jar file
-      run: jar cfv the-mod.jar
+      run: jar cfv theMod.jar
 
     - name: Upload Mod Jar
       uses: actions/upload-artifact@v2
       with: 
-        name: the-mod.jar
-        path: *.jar
+        name: theMod.jar
+        path: /*.jar
