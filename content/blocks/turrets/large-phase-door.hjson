@@ -1,0 +1,12 @@
+type: Door
+category: defense
+localizedName: Large Phase Door
+description: A door that reflects enemy bullets.
+chanceDeflect: 10
+flashHit: true
+size: 2
+requirements [
+  phase-fabric/24
+  silicon/12
+]
+research: phase-door
