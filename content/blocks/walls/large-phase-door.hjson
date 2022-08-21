@@ -4,6 +4,7 @@ localizedName: Large Phase Door
 description: A door that reflects enemy bullets.
 chanceDeflect: 10
 flashHit: true
+health: 720
 size: 2
 requirements [
   phase-fabric/24
