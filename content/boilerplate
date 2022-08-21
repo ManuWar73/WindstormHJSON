@@ -2,7 +2,7 @@ type:
 category: 
 localizedName: 
 description: 
-health: 
+scaledHealth: 
 requirements [
   copper/1
 ]
