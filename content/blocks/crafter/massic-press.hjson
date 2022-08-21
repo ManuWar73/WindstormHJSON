@@ -14,7 +14,7 @@ requirements: [
   lead/100
   graphite/65
   silicon/25
-  thorium/55 # thorium moment
+  thorium/55
 ]
 # bad research/progression (again)
 research: multi-press
