@@ -16,8 +16,10 @@ jobs:
         distribution: 'temurin'
 
     - name: archive the source code to a jar file
-      run: jar -cfv theMod.jar *.*
-
+      run: | 
+        git clone --depth=1 --branch=master https://github.com/driftheque/${{ github.event.repository.name }}
+        cd ${{ github.event.repository.name }}
+        jar -cfv theMod.jar *.*
     - name: Upload Mod Jar
       uses: actions/upload-artifact@v2
       with: 
