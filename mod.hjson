@@ -4,4 +4,6 @@ subtitle: "hjson version of codename: windstorm"
 minGameVersion: 137
 version: "1.0"
 author: "Driftheque"
+main: "MultiCrafterAdapter"
+java: true
 description: "hjson port of Codename: Windstorm.\n\nmade by Driftheque (Drifted Notes + contributors)"
