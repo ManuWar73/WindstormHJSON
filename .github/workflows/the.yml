@@ -19,7 +19,7 @@ jobs:
       run: jar cfv the-mod.jar
 
     - name: Upload Mod Jar
-        uses: actions/upload-artifact@v2
-        with:
-          name: the-mod.jar
-          path: *.jar
+      uses: actions/upload-artifact@v2
+      with:
+        name: the-mod.jar
+        path: *.jar
