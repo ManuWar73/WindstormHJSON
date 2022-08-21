@@ -1,4 +1,4 @@
-displayName: "Codename: Windstorm"
+displayName: "Codename: Windstorm (HJSON)"
 name: "cwh" // codename: windstorm hjson
 subtitle: "hjson version of codename: windstorm"
 minGameVersion: 137
