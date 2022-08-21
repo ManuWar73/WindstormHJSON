@@ -7,7 +7,7 @@ craftTime: 90
 #craftEffect: smokeCloud
 size: 5
 outputItems: [
-  silicon/5
+  graphite/6
 ]
 requirements: [
   copper/140
