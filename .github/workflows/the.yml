@@ -24,4 +24,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with: 
         name: theMod.jar
-        path: ${{ github.event.repository.name }}-main/*.jar
+        path: ${{ github.event.repository.name }}/*.jar
