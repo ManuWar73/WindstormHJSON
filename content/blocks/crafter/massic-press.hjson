@@ -4,7 +4,7 @@ localizedName: Massic Press
 description: Compresses coal into a lot of graphite.
 scaledHealth: 275
 craftTime: 90
-#craftEffect: smokeCloud
+craftEffect: pulverizeMedium
 size: 5
 outputItems: [
   graphite/6
