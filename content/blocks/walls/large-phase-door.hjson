@@ -2,7 +2,7 @@ type: Door
 category: defense
 localizedName: Large Phase Door
 description: A door that reflects enemy bullets.
-chanceDeflect: 10
+chanceDeflect: 15
 flashHit: true
 health: 720
 size: 2

@@ -2,7 +2,7 @@ type: Door
 category: defense
 localizedName: Phase Door
 description: A door that reflects enemy bullets.
-chanceDeflect: 10
+chanceDeflect: 15
 flashHit: true
 health: 180
 requirements: [

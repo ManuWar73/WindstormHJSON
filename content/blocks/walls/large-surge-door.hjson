@@ -3,7 +3,7 @@ category: defense
 localizedName: Surge Door
 # bad description
 description: A door that creates electric arcs.
-lightningChance: 0.12
+lightningChance: 0.65
 health: 940
 size: 2
 requirements: [
