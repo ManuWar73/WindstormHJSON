@@ -18,11 +18,10 @@ jobs:
     - name: archive the source code to a jar file
       run: | 
         git clone --depth=1 --branch=main https://github.com/driftheque/${{ github.event.repository.name }}
-        rm source.txt
         cd ${{ github.event.repository.name }}
-        jar -cfv theMod.jar *
+        jar -cfv ${{ github.event.repository.name }}.jar *
     - name: Upload Mod Jar
       uses: actions/upload-artifact@v2
       with: 
-        name: theMod.jar
+        name: ${{ github.event.repository.name }}
         path: ${{ github.event.repository.name }}/*.jar
