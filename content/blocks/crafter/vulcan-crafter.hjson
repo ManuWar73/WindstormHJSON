@@ -1,0 +1,20 @@
+type: GenericCrafter
+category: crafting
+localizedName: Vulcan Crafter
+description: Produces a lot of silicon from slag, sand, and coal.
+scaledHealth: 350
+craftTime: 120
+#craftEffect: smokeCloud
+warmupSpeed: 0.1
+size: 6
+outputItems: [
+  silicon/5
+]
+requirements: [
+  copper/165
+  lead/80
+  graphite/125
+  silicon/45
+]
+# bad research/progression
+research: silicon-crucible

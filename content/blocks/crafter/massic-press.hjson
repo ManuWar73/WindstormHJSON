@@ -1,0 +1,20 @@
+type: GenericCrafter
+category: crafting
+localizedName: Massic Press
+description: Compresses coal into a lot of graphite.
+scaledHealth: 275
+craftTime: 90
+#craftEffect: smokeCloud
+size: 5
+outputItems: [
+  silicon/5
+]
+requirements: [
+  copper/140
+  lead/100
+  graphite/65
+  silicon/25
+  thorium/55 # thorium moment
+]
+# bad research/progression (again)
+research: multi-press
