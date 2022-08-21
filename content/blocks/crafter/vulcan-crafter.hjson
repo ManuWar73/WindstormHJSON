@@ -3,10 +3,23 @@ category: crafting
 localizedName: Vulcan Crafter
 description: Produces a lot of silicon from slag, sand, and coal.
 scaledHealth: 350
-craftTime: 120
+craftTime: 200
 #craftEffect: smokeCloud
 warmupSpeed: 0.1
 size: 6
+consumes: {
+  power: 5
+  items: {
+    items: [
+      sand/6
+      coal/4
+    ]
+    liquid: {
+      liquid: water
+      amount: 0.98
+    }
+  }
+}
 outputItems: [
   silicon/5
 ]
