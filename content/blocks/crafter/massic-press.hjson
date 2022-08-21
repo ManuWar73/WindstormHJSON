@@ -9,6 +9,14 @@ size: 5
 outputItems: [
   graphite/6
 ]
+consumes: {
+  power: 3.75
+  items: {
+    items: [
+      coal/5
+    ]
+  }
+}
 requirements: [
   copper/140
   lead/100
