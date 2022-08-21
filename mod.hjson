@@ -3,4 +3,5 @@ name: "cwh" // codename: windstorm hjson
 subtitle: "hjson version of codename: windstorm"
 minGameVersion: 137
 version: "1.0"
-description: "approaching the outer limits of mindustry's technologies."
+author: "Driftheque"
+description: "hjson port of Codename: Windstorm.\n\nmade by Driftheque (Drifted Notes + contributors)"
