@@ -45,6 +45,7 @@ recipes: [
   }
 ]
 menu: Simple
+craftEffect: pulverizeMedium
 requirements: [
   copper/145
   lead/65
