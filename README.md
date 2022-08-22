@@ -4,7 +4,8 @@ hjson version of Codename: Windstorm because why not.
 
 ### Links
 
-- [Source Code / Latest Version](https://github.com/driftheque/CodenameWindstormHJSON/archive/refs/heads/main.zip)
+- [Unstable Version](https://github.com/driftheque/WindstormHJSON/actions)
+- [Source Code](https://github.com/driftheque/WindstormHJSON/archive/refs/heads/main.zip)
 
 ### Credits
 
