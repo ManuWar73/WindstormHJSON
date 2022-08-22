@@ -1,6 +1,6 @@
-## Codename: Windstorm [HJSON]
+## Windstorm [HJSON]
 
-hjson version of Codename: Windstorm because why not.
+hjson version of `Codename: Windstorm` because why not.
 
 ### Links
 
