@@ -2,7 +2,7 @@ type:
 category: 
 localizedName: 
 description: 
-scaledHealth: # scaled health is good
+scaledHealth: 
 size:
 requirements: [
   copper/1
