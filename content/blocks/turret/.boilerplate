@@ -5,6 +5,9 @@ inaccuracy:
 reload:
 range:
 size:
+shootSound:
+shootEffect:
+ammoUseEffect:
 ammoTypes: {
 	copper: {
 		type:
