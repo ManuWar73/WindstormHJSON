@@ -1,3 +1,5 @@
+# item turret
+
 type: ItemTurret
 category: turret
 scaledHealth:
@@ -17,6 +19,30 @@ ammoTypes: {
 		width:
 		height:
 	}
+}
+requirements: [
+
+]
+research: 
+
+# power turret
+
+type: PowerTurret
+category: turret
+scaledHealth:
+inaccuracy:
+reload:
+range:
+size:
+shootSound:
+shootEffect:
+ammoUseEffect:
+consumes: {
+	power:
+}
+shootType: {
+	type: 
+	damage:
 }
 requirements: [
 
