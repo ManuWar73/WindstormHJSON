@@ -1,7 +1,7 @@
 type: PowerTurret
 category: turret
 scaledHealth: 67
-inaccuracy: 0
+inaccuracy: 5
 reload: 60
 range: 144
 size: 2
