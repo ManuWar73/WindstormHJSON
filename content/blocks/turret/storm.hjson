@@ -1,0 +1,36 @@
+type: PowerTurret
+category: turret
+scaledHealth: 68
+inaccuracy: 6
+reload: 75
+range: 192
+size: 3
+shootSound: laser
+shoot: {
+	shots: 2
+}
+consumes: {
+	power: 6.75
+}
+shootType: {
+	type: LaserBulletType
+	damage: 84
+	drawSize: 400
+	hitSize: 4
+	pierceCap: 4
+	hitEffect: hitLancer
+	length: 152
+	chargeEffect: {
+	 	type: MultiEffect
+		effects: [
+	 	 	lancerLaserCharge
+		 	lancerLaserChargeBegin
+		]
+	}
+}
+requirements: [
+	copper/112
+	lead/75
+	silicon/26
+]
+research: udam
