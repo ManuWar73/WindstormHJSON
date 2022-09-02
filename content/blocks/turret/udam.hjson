@@ -1,0 +1,41 @@
+type: ItemTurret
+category: turret
+scaledHealth: 65
+inaccuracy: 0
+reload: 50
+range: 160
+size: 2
+shootSound: artillery
+shootEffect: shootSmallSmoke
+ammoUseEffect: none
+ammoTypes: {
+	graphite: {
+		type: ArtilleryBulletType
+		speed: 5
+		damage: 38
+		lifetime: 32
+		width: 8.5
+		height: 8.5
+		splashDamage: 44
+		splashDamageRadius: 64
+		reloadMultiplier: 1.35
+	}
+	silicon: {
+		type: ArtilleryBulletType
+		speed: 4
+		damage: 38
+		lifetime: 32
+		width: 8.5
+		height: 8.5
+		splashDamage: 56
+		splashDamageRadius: 64
+		homingPower: 0.7
+		homingRange: 64
+	}
+}
+requirements: [
+	copper/60
+	lead/46
+	graphite/25
+]
+research: binara
