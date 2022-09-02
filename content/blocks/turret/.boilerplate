@@ -10,6 +10,9 @@ size:
 shootSound:
 shootEffect:
 ammoUseEffect:
+shoot: {
+
+}
 ammoTypes: {
 	copper: {
 		type:
@@ -35,8 +38,9 @@ reload:
 range:
 size:
 shootSound:
-shootEffect:
-ammoUseEffect:
+shoot: {
+
+}
 consumes: {
 	power:
 }
