@@ -1,0 +1,21 @@
+type: ItemTurret
+category: turret
+scaledHealth:
+inaccuracy:
+reload:
+range:
+size:
+ammoTypes: {
+	copper: {
+		type:
+		speed:
+		damage:
+		lifetime:
+		width:
+		height:
+	}
+}
+requirements: [
+
+]
+research: 
