@@ -7,6 +7,7 @@ range: 160
 size: 2
 shootSound: artillery
 shootEffect: shootSmallSmoke
+targetAir: false
 ammoUseEffect: none
 ammoTypes: {
 	graphite: {
@@ -19,6 +20,8 @@ ammoTypes: {
 		splashDamage: 44
 		splashDamageRadius: 64
 		reloadMultiplier: 1.35
+		collidesAir: false
+		collidesTiles: false
 	}
 	silicon: {
 		type: ArtilleryBulletType
@@ -31,6 +34,8 @@ ammoTypes: {
 		splashDamageRadius: 64
 		homingPower: 0.7
 		homingRange: 64
+		collidesAir: false
+		collidesTiles: false
 	}
 }
 requirements: [
