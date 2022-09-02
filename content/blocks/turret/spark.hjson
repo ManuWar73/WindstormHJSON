@@ -1,0 +1,24 @@
+type: PowerTurret
+category: turret
+scaledHealth: 67
+inaccuracy: 0
+reload: 60
+range: 144
+size: 2
+shootSound: spark
+consumes: {
+	power: 4.75
+}
+shootType: {
+	type: LightningBulletType
+	damage: 45
+	lightningLength: 72
+	lifetime: 16
+	lightningLengthRand: 4
+}
+requirements: [
+	copper/75
+	lead/64
+	silicon/12
+]
+research: udam
