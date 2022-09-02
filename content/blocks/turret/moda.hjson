@@ -1,0 +1,52 @@
+type: ItemTurret
+category: turret
+scaledHealth: 66
+inaccuracy: 0
+reload: 30
+range: 120
+size: 2
+targetGround: false
+shoot: {
+	shots: 2
+}
+ammoTypes: {
+	copper: {
+		type: FlakBulletType
+		speed: 6
+		damage: 5
+		lifetime: 20
+		width: 7
+		height: 7
+		collidesGround: false
+		ammoMultiplier: 2
+	}
+	lead: {
+		type: FlakBulletType
+		speed: 7
+		damage: 4
+		lifetime: 18
+		width: 6.75
+		height: 8
+		collidesGround: false
+		reloadMultiplier: 3.15
+	}
+	silicon: {
+		type: FlakBulletType
+		speed: 6
+		damage: 7
+		lifetime: 20
+		width: 7
+		height: 8
+		frontColor: darkishGray
+		backColor: darkerGray
+		collidesGround: false
+		homingPower: 0.4
+		homingRange: 32
+		reloadMultiplier: 2.5
+	}
+}
+requirements: [
+	copper/54
+	lead/25
+]
+research: binara
