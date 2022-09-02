@@ -1,6 +1,6 @@
 displayName: "Windstorm (HJSON)"
 name: "wsh"
-subtitle: "[DRFTH MD 001]: hjson version of codename: windstorm."
+subtitle: "hjson version of codename: windstorm."
 minGameVersion: 137
 version: "1.0"
 author: "Drifted Notes & 1237"
