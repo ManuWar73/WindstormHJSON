@@ -9,5 +9,5 @@ hjson version of `Codename: Windstorm` because why not.
 
 ### Credits
 
-- Vdoble MSG#2849 on discord // Content Ideas
-- [@liplum](github.com/liplum) (Liplum#2623 on discord) // Original Creator of MultiCrafterLib
+- `Vdoble MSG#2849` on discord: Content Ideas
+- [@liplum](github.com/liplum) (`Liplum#2623` on discord): Original Creator of MultiCrafterLib
