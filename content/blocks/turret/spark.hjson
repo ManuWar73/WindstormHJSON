@@ -5,14 +5,18 @@ inaccuracy: 5
 reload: 60
 range: 144
 size: 2
+shootEffect: none
 shootSound: spark
 consumes: {
 	power: 4.75
 }
+shoot: {
+	shots: 2
+}
 shootType: {
 	type: LightningBulletType
 	damage: 45
-	lightningLength: 72
+	lightningLength: 64
 	lifetime: 16
 	lightningLengthRand: 4
 }
