@@ -6,6 +6,7 @@ reload: 75
 range: 192
 size: 3
 shootSound: laser
+shootEffect: none
 shoot: {
 	shots: 2
 }
