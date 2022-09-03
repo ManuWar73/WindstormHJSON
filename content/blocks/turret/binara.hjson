@@ -1,3 +1,4 @@
+type: ItemTurret
 category: turret
 scaledHealth: 64
 inaccuracy: 3
