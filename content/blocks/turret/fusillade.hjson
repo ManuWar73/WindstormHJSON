@@ -1,0 +1,81 @@
+type: ItemTurret
+category: turret
+scaledHealth: 72
+inaccuracy: 0
+reload: 80
+range: 320
+size: 3
+shootSound: artillery
+shootEffect: shootSmallSmoke
+targetAir: false
+ammoUseEffect: none
+shoot: {
+  shots: 2
+  shotDelay: 30
+}
+ammoTypes: {
+	graphite: {
+		type: ArtilleryBulletType
+		speed: 8
+		damage: 42
+		lifetime: 40
+		width: 9
+		height: 9
+		splashDamage: 75
+		splashDamageRadius: 64
+		reloadMultiplier: 1.35
+		collidesAir: false
+		collidesTiles: false
+		ammoMultiplier: 2
+	}
+	silicon: {
+		type: ArtilleryBulletType
+		speed: 7
+		damage: 54
+		lifetime: 46
+		width: 10
+		height: 10.5
+		frontColor: darkishGray
+		backColor: darkerGray
+		splashDamage: 75
+		splashDamageRadius: 128
+		homingPower: 1
+		homingRange: 128
+		collidesAir: false
+		collidesTiles: false
+	}
+	pyratite: {
+		type: ArtilleryBulletType
+		speed: 7
+		damage: 40
+		makeFire: true
+		status: burning
+		lifetime: 50
+		width: 10
+		height: 10.5
+		splashDamage: 38
+		frontColor: lightishOrange
+		backColor: lightOrange
+		splashDamageRadius: 128
+		homingPower: 1
+		homingRange: 128
+		collidesAir: false
+		collidesTiles: false
+		hitEffect: { 
+      			type: MultiEffect
+      			effects: [
+        			hitBulletSmall
+        			fireHit
+      			]
+    		}
+		ammoMultiplier: 3
+		reloadMultiplier: 0.7
+	}
+}
+requirements: [
+  copper/187
+  lead/135
+  titanium/75
+  graphite/50
+]
+research: rudu
