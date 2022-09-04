@@ -1,0 +1,74 @@
+# item turret
+
+type: ItemTurret
+category: turret
+scaledHealth: 70
+inaccuracy: 6
+reload: 24
+range: 200
+size: 3
+shootSound: shootBig
+shootEffect: shootBig
+ammoUseEffect: casing2Double
+shoot: {
+  shots: 3
+  shotDelay: 30
+}
+ammoTypes: {
+	copper: {
+		type: BasicBulletType
+		speed: 7
+		damage: 15
+		lifetime: 29
+		width: 8
+		height: 9.75
+	}
+  lead: {
+		type: BasicBulletType
+		speed: 7
+		damage: 12
+		lifetime: 29
+		width: 7
+		height: 8.25
+    reloadMultiplier: 1.5
+    splashDamage: 14
+    splashDamageRadius: 48
+	}
+  silicon: {
+		type: BasicBulletType
+		speed: 5.5
+		damage: 15
+		lifetime: 37
+		width: 9
+		height: 9.75
+    homingPower: 1
+    homingRange: 64
+	}
+  pyratite: {
+    type: BasicBulletType
+    speed: 6
+    width: 10f
+    height: 12f
+    frontColor: lightishOrange
+    backColor: lightOrange
+    status: burning
+    hitEffect: { 
+      type: MultiEffect
+      effects: [
+        hitBulletSmall
+        fireHit
+      ]
+    }
+    ammoMultiplier: 5
+    splashDamage: 12f
+    splashDamageRadius: 22f
+    makeFire: true
+    lifetime: 34
+  }
+}
+requirements: [
+  copper/135
+  lead/96
+  graphite/35
+]
+research: udam
