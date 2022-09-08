@@ -5,5 +5,5 @@ minGameVersion: 137
 version: "1.0"
 author: "Drifted Notes & 1237"
 main: "MultiCrafterAdapter"
-java: true
+java: false
 description: "hjson port of Codename: Windstorm. renamed to \"Windstorm\" because the name \"Codename: Windstorm\" is too long.\n\nmade by Drifted Notes & 1237."
